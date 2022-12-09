@@ -1,4 +1,4 @@
-package RPL;
+package CafeQJava;
 
 public class cafeList {
     public cafe [] cafeL = new cafe[0];

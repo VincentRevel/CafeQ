@@ -1,4 +1,4 @@
-package RPL;
+package CafeQJava;
 
 public class login {
     String emailInput, passwordInput;

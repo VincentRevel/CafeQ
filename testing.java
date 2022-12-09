@@ -1,4 +1,4 @@
-package RPL;
+package CafeQJava;
 
 import java.util.Scanner;
 
