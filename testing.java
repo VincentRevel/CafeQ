@@ -2,8 +2,6 @@ package CafeQJava;
 
 import java.util.Scanner;
 
-import javax.xml.transform.Source;
-
 public class testing {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
@@ -12,6 +10,7 @@ public class testing {
         // String email = in.nextLine();
         // String password = in.nextLine();
 
+        // Input Manual Data User dan Cafe
         // Testing user
         user user1 = new user("Vincent", "081275226877", "vincent@gmail.com", "vincent123");
         // user user2 = new user(name, cell, email, password);
@@ -73,6 +72,7 @@ public class testing {
                         System.out.println(user1.getName() + " logging out ...");
                         exit = 1;
                     }else if(cafeSelected == 99){
+                        System.out.println("----------------DAFTAR TRANSAKSI----------------\n");
                         user1.showTransaksi();
                     }else if((cafeSelected-1) < cl.getSize()){
                         // Menampilkan informasi spesifik cafe yang dipilih
