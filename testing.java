@@ -5,10 +5,6 @@ import java.util.Scanner;
 public class testing {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        // String name = in.nextLine();
-        // String cell = in.nextLine();
-        // String email = in.nextLine();
-        // String password = in.nextLine();
 
         // Input Manual Data User dan Cafe
         // Testing user
@@ -47,7 +43,7 @@ public class testing {
         int end = 0;
         while(end == 0){
             System.out.println("------------------------------------------------");
-            System.out.println("LOGIN PAGE");
+            System.out.println("                   LOGIN PAGE");
             System.out.println("------------------------------------------------");
             System.out.print("Masukkan email    : ");
             String emailInput = in.nextLine();
@@ -63,9 +59,9 @@ public class testing {
                     System.out.println("------------------------------------------------");
                     System.out.println("Daftar Cafe:");
                     cl.printList();
-                    System.out.println("Transaksi = 99");
-                    System.out.println("[Log Out = 0]");
-                    System.out.print("Pilih cafe : ");
+                    System.out.println("\n[99]. Daftar Transaksi");
+                    System.out.println("[0] Logout");
+                    System.out.print("\nPilih cafe : ");
                     int cafeSelected = in.nextInt();
                     System.out.println("------------------------------------------------");
                     if(cafeSelected == 0){

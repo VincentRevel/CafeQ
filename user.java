@@ -32,6 +32,7 @@ public class user {
             System.out.println("Anda belum pernah melakukan transaksi . . .");
         }else{
             for(int i = 0; i < invoiceList.size(); i++){
+                System.out.println("------------------------------------------------");
                 invoiceList.get(i).displayInvoice();
             }
         }
